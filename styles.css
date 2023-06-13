@@ -6,7 +6,7 @@
   }
   
    header h1{
-    color: #ccc;
+    color: #023109;
     font-weight: bold;
    }
    header {
@@ -26,7 +26,8 @@
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    color: #333;
+    color: #041a08;
+    background-color: #023109;
   }
   
   h1, h2, h3, h4 {
@@ -231,4 +232,14 @@
       width: 100%;
     }
   }
+  #copyright h1{
+    font-size: 14px;
+    text-align: center;
+    background-color: #555;
+    padding: 10px 10px;
+  }
+#copyright span{
+  color: rgb(5, 56, 5);
+}
+
   
