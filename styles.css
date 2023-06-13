@@ -68,11 +68,12 @@
    
   header p {
     font-size: 18px;
+    color: #ffffff;
   }
   
   /* Services Section */
   #services {
-    background-color: #f4f4f4;
+    background-color: linear-gradient(rgba(green,white,0.1));
     padding: 40px;
     text-align: center;
   }
@@ -111,6 +112,7 @@
   .category li:hover {
     transform: translateY(-5px);
     transition: transform 0.3s ease;
+    background-color: #041a08;
   }
   
   .category li img {
@@ -126,8 +128,9 @@
   .category li h4 {
     font-size: 24px;
     font-weight: bold;
-    color: #333;
+    color: #000000;
     margin-bottom: 10px;
+    padding-top: 10px;
   }
   
   .category li p {
@@ -138,7 +141,7 @@
   
   /* About Section */
   #about {
-    background-color: #fff;
+    background-color: linear-gradient(rgba(green,white,0.1));
     padding: 40px;
     text-align: center;
   }
@@ -162,19 +165,19 @@
   .member h3 {
     font-size: 24px;
     font-weight: bold;
-    color: #333;
+    color: #ffffff;
     margin-bottom: 10px;
   }
   
   .member p {
     font-size: 16px;
-    color: #555;
+    color: #ffffff;
     margin-bottom: 20px;
   }
   
   /* Contact Section */
   #contact {
-    background-color: #f4f4f4;
+    background-color: linear-gradient(rgba(green,white,0.1));
     padding: 40px;
     text-align: center;
   }
